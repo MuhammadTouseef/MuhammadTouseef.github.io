@@ -1,0 +1,220 @@
+body{
+	    background: linear-gradient(89deg, #E100FF 0%, #7F00FF 100%);
+	    text-align: center;
+}
+html, body {
+    height:100%;
+}
+#one{
+
+	height: 100%;
+}
+.navbar {
+    font-size: 18px;
+   font-family: "Fredoka One";
+  
+    padding-bottom: 10px;
+}
+.main-nav {
+    list-style-type: none;
+}
+.nav-links,
+.logo {
+   text-decoration: none;
+   color: white;
+   font-family: "Fredoka One";
+   text-align: center;
+
+
+}
+.main-nav li {
+    text-align: center;
+    margin: 12px auto;
+}
+.logo {
+    display: inline-block;
+ width: 100%;
+}
+.navbar-toggle {margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+    margin-top: 20%;
+    margin-left:40%;
+}
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+.active {
+  display: block;
+}
+section{
+	width: 100%
+	margin: 0 auto;
+}
+#hello{
+
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 15%;
+	
+
+}
+#greet{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-family: "Fredoka One";
+	
+}
+h1 a span {
+	margin: auto;
+}
+.wrap{
+	display: inline-block;
+	color: white;
+	font-family: "Fredoka One";
+	text-align: right;
+	margin-left: 10%;
+}
+section{
+	margin-left: 0 auto
+}
+#contact{
+	margin-left: 30%;
+}
+i{
+	text-align: center;
+	color: #ffff;
+	font-size: 180%;
+	padding: 10px;
+}
+#portfolio{
+	height:100%;
+
+
+}
+.scroll{
+	width: 25%;
+	margin-left: 40%;
+}
+
+
+
+@media screen and (min-width: 768px) {
+	html, body {
+    height:100%;
+}
+    .navbar {
+        display: flex;
+        justify-content: spaf-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+    .logo {
+        margin-top: 0;
+        width: 30%;
+    }
+   .navbar-toggle {
+       display: none;
+    }
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+#hello{
+
+	display: inline-block;
+	margin-left: 30%;
+	margin-top: 15%;
+	
+
+}
+#greet{
+	display: inline-block;
+	color: white;
+	font-family: "Fredoka One";
+}
+.wrap{
+	margin-left: 40%;
+
+}
+#contact {
+	
+	
+	margin-left: 45%;
+}
+i{
+color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 180%;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+.scroll{
+
+	margin-left: 47%;
+	width: 100px;
+}
+#portfolio{
+	width: 100%;
+	height:100%;
+
+
+}
+#one{
+	height: 100%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E100FF; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #E100FF; 
+}
+#con{
+  height: 100%;
+  margin-left: 27%;
+  
+}
+
+}
+@media screen and (max-height: 550px) {
+    .scroll{
+        visibility: hidden;
+    }
+}
