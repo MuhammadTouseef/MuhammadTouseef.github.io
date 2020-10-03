@@ -1,341 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Metadata -->
-  <meta charset="utf-8">
-  <meta name="author" content="Muhammad Touseef">
-  <meta name="keywords" content="Muhammad Touseef Portfolio,Muhammad Touseef, Muhammad Touseef Web Developer">
-	<meta name="description" content="I am Muhammad Touseef Web Developer. It is my Portfolio. See My Projects and Certificates">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<!-- Stylesheets -->
-	<link rel="stylesheet" type="text/css" href="Stylesheets/style.css">
-	<link rel="stylesheet" type="text/css" href="Stylesheets/project.css">
-	<title>Muhammad Touseef - Portfolio </title>
-	
-	<!-- Bootstrap 4 CDN -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!-- Animation CDN -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-	<!-- FontAwesome CDN -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-	<script src="https://use.fontawesome.com/f5a0642e67.js"></script>
+<head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="author" content="Muhammad Touseef">
+    <meta name="keywords" content="Muhammad Touseef Portfolio,Muhammad Touseef, Muhammad Touseef Web Developer">
+    <meta name="description"
+        content="I am Muhammad Touseef Web Developer. It is my Portfolio. See My Projects and Certificates">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="Stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/project.css">
+    <title>Muhammad Touseef - Portfolio </title>
+
+    <!-- Required for AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Animation CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <script src="https://use.fontawesome.com/f5a0642e67.js"></script>
 
 </head>
+
 <body>
-<div id="one">
-	<!-- Website Logo -->
+    <div id="one">
+        <!-- Website Logo -->
 
-<header class="animated bounceInLeft delay-0s" >
-<nav class="navbar" >
-	<span class="navbar-toggle" id="js-navbar-toggle">
-           <i class="fas fa-bars"></i>
+        <header class="animated bounceInLeft delay-0s">
+            <nav class="navbar">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <a href="index.html" class="navbar-brand" data-aos="fade-in" data-aos-delay="100">
+                    < <span id="brandName">&nbsp;Touseef </span> />
+                </a>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="#" class="nav-links" data-aos="fade-in" data-aos-delay="100">Home</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-links bounceInDown" data-aos="fade-in"
+                            data-aos-delay="200">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#cert" class="nav-links" data-aos="fade-in" data-aos-delay="300">Certifications</a>
+                    </li>
+                    <li>
+                        <a href="#con" class="nav-links" data-aos="fade-in" data-aos-delay="400">Contact</a>
+                    </li>
 
-        </span>
-       <img src="images/logo.png" class="logo" >
-        <ul class="main-nav" id="js-menu">
-            <li>
-                <a href="#" class="nav-links ">Home</a>
-            </li>
-            <li>
-                <a href="#portfolio" class="nav-links bounceInDown">Projects</a>
-            </li>
-            <li>
-                <a href="#cert" class="nav-links">Certifications</a>
-            </li>
-            <li>
-                <a href="#con" class="nav-links">Contact</a>
-            </li>
-          
-        </ul>
-        <script >let mainNav = document.getElementById('js-menu');
-let navBarToggle = document.getElementById('js-navbar-toggle');
+                </ul>
+                <script>
+                    let mainNav = document.getElementById('js-menu');
+                    let navBarToggle = document.getElementById('js-navbar-toggle');
 
-navBarToggle.addEventListener('click', function () {
-    
-    mainNav.classList.toggle('active');
-});</script>
-</nav>
+                    navBarToggle.addEventListener('click', function () {
 
-<section>
-<h1 id="hello" 
- class="animated infinite shake slow" 
->
-&#128075; 
-</h1>
-<h1 id="greet" class="animated rotateInDownLeft slow">
-	Hi, I am Muhammad Touseef
-</h1>
-<h1>
-  <a href="" class="typewrite" data-period="2000" data-type='[ "Web Developer" ]'>
-    <span class="wrap"></span>
-  </a>
-</h1>
-<script >var TxtType = function(el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-    };
+                        mainNav.classList.toggle('active');
+                    });
+                </script>
+            </nav>
 
-    TxtType.prototype.tick = function() {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
+            <section>
+                <h1 id="hello" class="animated infinite shake slow">
+                    <img id="hellohand" src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif">
+                </h1>
+                <h1 id="greet" class="animated rotateInDownLeft slow">
+                    Hi, I am Muhammad Touseef
+                </h1>
+                <h1>
+                    <a href="" class="typewrite" data-period="2000" data-type='[ "Web Developer", "Tech Enthusiast" ]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h1>
+                <script>
+                    var TxtType = function (el, toRotate, period) {
+                        this.toRotate = toRotate;
+                        this.el = el;
+                        this.loopNum = 0;
+                        this.period = parseInt(period, 10) || 2000;
+                        this.txt = '';
+                        this.tick();
+                        this.isDeleting = false;
+                    };
 
-        if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
+                    TxtType.prototype.tick = function () {
+                        var i = this.loopNum % this.toRotate.length;
+                        var fullTxt = this.toRotate[i];
 
-        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+                        if (this.isDeleting) {
+                            this.txt = fullTxt.substring(0, this.txt.length - 1);
+                        } else {
+                            this.txt = fullTxt.substring(0, this.txt.length + 1);
+                        }
 
-        var that = this;
-        var delta = 200 - Math.random() * 100;
+                        this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
-        if (this.isDeleting) { delta /= 2; }
+                        var that = this;
+                        var delta = 200 - Math.random() * 100;
 
-        if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-        }
+                        if (this.isDeleting) {
+                            delta /= 2;
+                        }
 
-        setTimeout(function() {
-        that.tick();
-        }, delta);
-    };
+                        if (!this.isDeleting && this.txt === fullTxt) {
+                            delta = this.period;
+                            this.isDeleting = true;
+                        } else if (this.isDeleting && this.txt === '') {
+                            this.isDeleting = false;
+                            this.loopNum++;
+                            delta = 500;
+                        }
 
-    window.onload = function() {
-        var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-type');
-            var period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-              new TxtType(elements[i], JSON.parse(toRotate), period);
-            }
-        }
-        // INJECT CSS
-        var css = document.createElement("style");
-        css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-        document.body.appendChild(css);
-    };</script>
-</section>
-<br>
-<div id="contact" class="animated zoomIn slow">
-	<a href="#">
-<i class="fas fa-envelope-open-text" ></i></a>
-<a href="https://www.linkedin.com/in/muhammad-touseef-mt/">
-<i class="fab fa-linkedin"></i></a>
-<a href="https://github.com/muhammadtouseef">
-<i class="fab fa-github"></i></a>
+                        setTimeout(function () {
+                            that.tick();
+                        }, delta);
+                    };
 
-</div>
-<br><br><br><a href="#portfolio">
-<img src="images/scroll.gif" class="scroll" ></a>
-</div>	
+                    window.onload = function () {
+                        var elements = document.getElementsByClassName('typewrite');
+                        for (var i = 0; i < elements.length; i++) {
+                            var toRotate = elements[i].getAttribute('data-type');
+                            var period = elements[i].getAttribute('data-period');
+                            if (toRotate) {
+                                new TxtType(elements[i], JSON.parse(toRotate), period);
+                            }
+                        }
+                        // INJECT CSS
+                        var css = document.createElement("style");
+                        css.type = "text/css";
+                        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+                        document.body.appendChild(css);
+                    };
+                </script>
+            </section>
+            <br>
+            <div id="contact" class="animated zoomIn slow">
+                <a href="#">
+                    <i class="fas fa-envelope-open-text"></i></a>
+                <a href="https://www.linkedin.com/in/muhammad-touseef-mt/">
+                    <i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/muhammadtouseef">
+                    <i class="fab fa-github"></i></a>
 
-<div id="portfolio">
-	<h1 id="proj"><center >Projects</center></h1>
-<!-- Projects -->	
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.mtouseeftech.com/">
-      <img src="images/mtouseef.JPG" alt="Mtouseef Tech" width="600" height="400">
-    </a>
-    <div class="desc">MTouseef Tech (WordPress Blog) </div>
-  </div>
-</div>
+            </div>
+            <br><br><br>
+            <a href="#portfolio">
+                <img src="images/scroll.gif" class="scroll"></a>
+    </div>
 
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.dwcui.tech/">
-      <img src="images/dw.JPG" alt="DWCUI" width="600" height="400" >
-    </a>
-    <div class="desc">DWCUI (WordPress Landing Page)</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/mtstore.png">
-      <img src="images/mt.JPG" alt="store" width="600" height="400">
-    </a>
-    <div class="desc">WooCommerce Store (WordPress)</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://vigilantnews.com.pk">
-      <img src="images/vigilant.jpg" alt="Vigilant News" width="600" height="400">
-    </a>
-    <div class="desc">Vigilant News (WordPress Blog)</div>
-  </div>
-</div>
+    <div id="portfolio">
+        <h1 id="proj">
+            <center>Projects</center>
+        </h1>
+        <!-- Projects -->
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://www.mtouseeftech.com/">
+                    <img src="images/mtouseef.JPG" alt="Mtouseef Tech" width="600" height="400">
+                </a>
+                <div class="desc">MTouseef Tech (WordPress Blog) </div>
+            </div>
+        </div>
 
 
-<br><br>
-<div class="clearfix"></div>
-<!-- Second Row -->
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/md5.JPG">
-      <img src="images/md5.JPG" alt="MD5 Cracker" width="600" height="400">
-    </a>
-    <div class="desc">MD5 Cracker (PHP)</div>
-  </div>
-</div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://www.dwcui.tech/">
+                    <img src="images/dw.JPG" alt="DWCUI" width="600" height="400">
+                </a>
+                <div class="desc">DWCUI (WordPress Landing Page)</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="images/mtstore.png">
+                    <img src="images/mt.JPG" alt="store" width="600" height="400">
+                </a>
+                <div class="desc">WooCommerce Store (WordPress)</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://vigilantnews.com.pk">
+                    <img src="images/vigilant.jpg" alt="Vigilant News" width="600" height="400">
+                </a>
+                <div class="desc">Vigilant News (WordPress Blog)</div>
+            </div>
+        </div>
 
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/web.JPG">
-      <img src="images/web.JPG" alt="Landing Page" width="600" height="400">
-    </a>
-    <div class="desc">Landing Page (HTML & CSS)</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/sql.JPG">
-      <img src="images/sql.JPG" alt="Northern Lights" width="600" height="400">
-    </a>
-    <div class="desc">MySQL Database of Music Website</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/rock.JPG">
-      <img src="images/rock.JPG" alt="Rock Paper Scissor Game (PHP)" width="600" height="400">
-    </a>
-    <div class="desc">Rock Paper Scissor Game (PHP)</div>
-  </div>
-</div>
-
-<div class="clearfix">
-	</div>
-<br><br><br><a href="#cert">
-<img src="images/scroll.gif" class="scroll" ></a>
-</div>	
-</div>
-
-</div>
-<br>
-<!-- Certifications -->
-<div id="cert">
-	<h1 id="proj"><center >Certifications</center></h1>
-	
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://coursera.org/share/dbf23b466ef11159620eddd711a22b2e">
-      <img src="images/certifications/html.JPG" alt="Muhammad Touseef HTML Certificate" width="600" height="400">
-    </a>
-    <div class="desc">HTML Certificate (Coursera) </div>
-  </div>
-</div>
+        <br><br>
+        <div class="clearfix"></div>
+        <!-- Second Row -->
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="images/md5.JPG">
+                    <img src="images/md5.JPG" alt="MD5 Cracker" width="600" height="400">
+                </a>
+                <div class="desc">MD5 Cracker (PHP)</div>
+            </div>
+        </div>
 
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://coursera.org/share/77a7acf1de097b6eb42c0f13557a637a">
-      <img src="images/certifications/css.JPG" alt="Muhammad Touseef CSS Certificate" width="600" height="400" >
-    </a>
-    <div class="desc">CSS3 Certificate (Coursera)</div>
-  </div>
-</div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="images/web.JPG">
+                    <img src="images/web.JPG" alt="Landing Page" width="600" height="400">
+                </a>
+                <div class="desc">Landing Page (HTML & CSS)</div>
+            </div>
+        </div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://coursera.org/share/23c213fe57a8393062054ac1670f5bc0">
-      <img src="images/certifications/js.JPG" alt="Muhammad Touseef Javascript Certificate" width="600" height="400">
-    </a>
-    <div class="desc">Javascript Certificate (Coursera)</div>
-  </div>
-</div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="images/sql.JPG">
+                    <img src="images/sql.JPG" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">MySQL Database of Music Website</div>
+            </div>
+        </div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://coursera.org/share/1e8a62d38d72dddaf02d274e73f88dc6">
-      <img src="images/certifications/php.JPG" alt="Muhammad Touseef PHP Certificate" width="600" height="400">
-    </a>
-    <div class="desc">Building Web Applications in PHP (Coursera)</div>
-  </div>
-</div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="images/rock.JPG">
+                    <img src="images/rock.JPG" alt="Rock Paper Scissor Game (PHP)" width="600" height="400">
+                </a>
+                <div class="desc">Rock Paper Scissor Game (PHP)</div>
+            </div>
+        </div>
 
-<div class="clearfix"></div>
-<br><br>
+        <div class="clearfix">
+        </div>
+        <br><br><br>
+        <a href="#cert">
+            <img src="images/scroll.gif" class="scroll"></a>
+    </div>
+    </div>
 
-<!-- Second Row -->
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://coursera.org/share/6f3ced63d48a379618a566558b72270c">
-      <img src="images/certifications/sql.JPG" alt="Muhammad Touseef SQL Certificate" width="600" height="400">
-    </a>
-    <div class="desc">SQL (Coursera)
-</div>
-  </div>
-</div>
+    </div>
+    <br>
+    <!-- Certifications -->
+    <div id="cert">
+        <h1 id="proj">
+            <center>Certifications</center>
+        </h1>
 
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://coursera.org/share/ee8adda5a6d6f174503581a0b1cc02a5">
-      <img src="images/certifications/python.JPG" alt="Muhammad Touseef Python Certificate" width="600" height="400">
-    </a>
-    <div class="desc">Getting Started with Python</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="images/certifications/WP.JPG">
-      <img src="images/certifications/WP.JPG" alt="Muhammad Touseef WordPress Certificate" width="600" height="400">
-    </a>
-    <div class="desc">WordPress (DigiSkill)</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://www.udemy.com/certificate/UC-aea380c7-8b54-46bc-af8e-8ec8845ad65c/">
-      <img src="images/certifications/slack.JPG" alt="Muhammad Touseef Slack Certificate" width="600" height="400">
-    </a>
-    <div class="desc">Learn Slack (Udemy)</div>
-  </div>
-</div>
-
-<div class="clearfix">
-	</div>
-
-</div>
-
-</div>
-<br><br>
-
-<div id="con">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScaSq6o-gDVFAo0HIw_rEhjMg2z9qruHPLOrGzjdf3wCt5QfQ/viewform?embedded=true" align="centers" align="center" width="660" height="670" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" >Loading…</iframe>
-
-</div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://coursera.org/share/dbf23b466ef11159620eddd711a22b2e">
+                    <img src="images/certifications/html.JPG" alt="Muhammad Touseef HTML Certificate" width="600"
+                        height="400">
+                </a>
+                <div class="desc">HTML Certificate (Coursera) </div>
+            </div>
+        </div>
 
 
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://coursera.org/share/77a7acf1de097b6eb42c0f13557a637a">
+                    <img src="images/certifications/css.JPG" alt="Muhammad Touseef CSS Certificate" width="600"
+                        height="400">
+                </a>
+                <div class="desc">CSS3 Certificate (Coursera)</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://coursera.org/share/23c213fe57a8393062054ac1670f5bc0">
+                    <img src="images/certifications/js.JPG" alt="Muhammad Touseef Javascript Certificate" width="600"
+                        height="400">
+                </a>
+                <div class="desc">Javascript Certificate (Coursera)</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://coursera.org/share/1e8a62d38d72dddaf02d274e73f88dc6">
+                    <img src="images/certifications/php.JPG" alt="Muhammad Touseef PHP Certificate" width="600"
+                        height="400">
+                </a>
+                <div class="desc">Building Web Applications in PHP (Coursera)</div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <br><br>
+
+        <!-- Second Row -->
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://coursera.org/share/6f3ced63d48a379618a566558b72270c">
+                    <img src="images/certifications/sql.JPG" alt="Muhammad Touseef SQL Certificate" width="600"
+                        height="400">
+                </a>
+                <div class="desc">SQL (Coursera)
+                </div>
+            </div>
+        </div>
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://coursera.org/share/ee8adda5a6d6f174503581a0b1cc02a5">
+                    <img src="images/certifications/python.JPG" alt="Muhammad Touseef Python Certificate" width="600"
+                        height="400">
+                </a>
+                <div class="desc">Getting Started with Python</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="images/certifications/WP.JPG">
+                    <img src="images/certifications/WP.JPG" alt="Muhammad Touseef WordPress Certificate" width="600"
+                        height="400">
+                </a>
+                <div class="desc">WordPress (DigiSkill)</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://www.udemy.com/certificate/UC-aea380c7-8b54-46bc-af8e-8ec8845ad65c/">
+                    <img src="images/certifications/slack.JPG" alt="Muhammad Touseef Slack Certificate" width="600"
+                        height="400">
+                </a>
+                <div class="desc">Learn Slack (Udemy)</div>
+            </div>
+        </div>
+
+        <div class="clearfix">
+        </div>
+
+    </div>
+
+    </div>
+    <br><br>
+
+    <div id="con">
+        <h1 style="text-align: center; padding: 2%; color: white;">Let's Build Something Together :)</h1>
+        <iframe id="contactForm"
+            src="https://docs.google.com/forms/d/e/1FAIpQLScaSq6o-gDVFAo0HIw_rEhjMg2z9qruHPLOrGzjdf3wCt5QfQ/viewform?embedded=true"
+            frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
+
+    </div>
+
+    <footer class="container-fluid myFooter">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <p id="copyright">&copy;All Right Reservered by Muhammad Touseef</p>
+            </div>
+        </div>
+    </footer>
 
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
